@@ -384,10 +384,28 @@ li {
     font-size: 1.5rem;
   }
 
-  .about {
+  .about{
     flex-direction: column-reverse;
   }
+
 }
+  
+    }
+    .expertise__container{
+      flex-direction: column-reverse;
+      display: contents;
+      
+    }
+    
+    .expertise__title {
+      text-transform: capitalize;
+    
+    }
+    .gallery{
+      display: grid;
+grid-template-columns: 50% 50%;
+    }
+
 
 @media screen and (min-width: 1025px) {
   .nav__list {
@@ -396,4 +414,7 @@ li {
   .nav__hamburger {
     display: none;
   }
-}
+  
+
+
+
